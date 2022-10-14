@@ -53,7 +53,7 @@ var rawdata = [
  <#-- create Tree-->
   function createTree() {
       jQuery(function () {
-        var libraryFiles = ["/common/js/jquery/ui/js/jquery.cookie-1.4.0.js",
+        var libraryFiles = ["/common/js/node_modules/js-cookie/dist/js-cookie.js",
             "/common/js/jquery/plugins/jsTree/jquery.jstree.js"];
         importLibrary(libraryFiles, function(){
 
